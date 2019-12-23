@@ -1,0 +1,7 @@
+This Web app's Machine Learning Model is trained with IRIS dataset
+we have to pass SepalLength, SepalWidth,  PetalLength, PetalWidth
+and it'll predict the type of flower's category it belongs to :- 
+           
+     1. Setosa
+     2. Versicolor
+     3. Virginica
