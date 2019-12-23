@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Predicting Flower</title>
+</head>
+    <body>
+        <h1>Please Fill Following Details</h1>
+
+            <form action='/check' method='POST'>
+                <pre>
+                    <label>Enter Sepal Length</label>
+
+                        <input type='text' name='slen' placeholder="Sepal Length" required>
+                    
+                    <label>Enter Sepal Width</label>
+                    
+                        <input type='text' name='swid' placeholder="Sepal Width" required>
+                    
+                    <label>Enter Petal Length</label>
+                    
+                        <input type='text' name='plen' placeholder="Petal Length" required>
+                    
+                    <label>Enter Petal Width</label>
+                    
+                        <input type='text' name='pwid' placeholder="Petal Width" required>
+                    
+                        <input type='submit'>
+
+                    {{ predicted_text }}
+                </pre>
+            </form>
+    </body>
+</html>
