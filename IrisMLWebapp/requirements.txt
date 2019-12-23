@@ -1,7 +1,7 @@
 flask==1.0.2
-pickle==2.0
-numpy==1.9.2
-scipy==0.15.1
-scikit-learn==0.18
-Jinja2==2.10.1
-gunicorn==19.9.0
+pickle
+numpy
+scipy
+scikit-learn
+Jinja2
+gunicorn
