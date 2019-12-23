@@ -1,7 +1,7 @@
 flask==1.0.2
-pickle
 numpy
 scipy
 scikit-learn
 Jinja2
 gunicorn
+pickle
